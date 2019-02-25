@@ -1,6 +1,6 @@
 import { User } from '../user/user.model';
 import { Thread } from '../thread/thread.model';
-import { v4 as Yuuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
 
 export class Message {
   id: string;
